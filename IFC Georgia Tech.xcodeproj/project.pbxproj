@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D07C8311BE9721C0026A438 /* JsonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07C8301BE9721C0026A438 /* JsonHandler.m */; };
+		4D07C8341BE972770026A438 /* NewsPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07C8331BE972770026A438 /* NewsPostCell.m */; };
+		4D07C8371BE973CC0026A438 /* NewsPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07C8361BE973CC0026A438 /* NewsPost.m */; };
+		4D07C83A1BE9742C0026A438 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07C8391BE9742C0026A438 /* UIImage+animatedGIF.m */; };
+		4D07C83D1BE978600026A438 /* myUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07C83C1BE978600026A438 /* myUtilities.m */; };
+		4D07C8401BE97A970026A438 /* PopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07C83F1BE97A970026A438 /* PopUpView.m */; };
+		4D07C8431BE97AB40026A438 /* NewsCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07C8421BE97AB40026A438 /* NewsCardController.m */; };
+		4D07C8451BE97B5E0026A438 /* loading3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4D07C8441BE97B5E0026A438 /* loading3.gif */; };
+		4D07C8471BE97B770026A438 /* xClose3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D07C8461BE97B770026A438 /* xClose3.png */; };
+		4D7CDCEB1A3AC8FD00AE2B96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CDCEA1A3AC8FD00AE2B96 /* main.m */; };
+		4D7CDCEE1A3AC8FD00AE2B96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CDCED1A3AC8FD00AE2B96 /* AppDelegate.m */; };
+		4D7CDCF61A3AC8FD00AE2B96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7CDCF51A3AC8FD00AE2B96 /* Images.xcassets */; };
+		4D7CDD051A3AC8FD00AE2B96 /* IFC_Georgia_TechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CDD041A3AC8FD00AE2B96 /* IFC_Georgia_TechTests.m */; };
+		4D7CDD111A3AD3AA00AE2B96 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CDD0F1A3AD3AA00AE2B96 /* MainViewController.m */; };
+		4D7CDD121A3AD3AA00AE2B96 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D7CDD101A3AD3AA00AE2B96 /* MainViewController.xib */; };
+		4D7CDD141A3AD3C400AE2B96 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7CDD131A3AD3C400AE2B96 /* Default-568h@2x.png */; };
+		4D7CDD161A3AD76100AE2B96 /* noteWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7CDD151A3AD76100AE2B96 /* noteWhite.png */; };
+		4D7CDD181A3BA13E00AE2B96 /* GT.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7CDD171A3BA13E00AE2B96 /* GT.png */; };
+		4D7CDD1A1A3BA47100AE2B96 /* pillar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D7CDD191A3BA47100AE2B96 /* pillar.jpg */; };
+		4D7CDD1C1A3BA96A00AE2B96 /* news3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7CDD1B1A3BA96A00AE2B96 /* news3.png */; };
+		4D7CDD221A3C0BE800AE2B96 /* pillar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7CDD211A3C0BE800AE2B96 /* pillar.png */; };
+		4D7CDD241A3C14A200AE2B96 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7CDD231A3C14A200AE2B96 /* calendar.png */; };
+		4D7CDD281A3CE78000AE2B96 /* yellout2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7CDD271A3CE78000AE2B96 /* yellout2.png */; };
+		4DA857FA1BB9B0B8003962CD /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA857F81BB9B0B8003962CD /* NewsViewController.m */; };
+		4DA857FB1BB9B0B8003962CD /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA857F91BB9B0B8003962CD /* NewsViewController.xib */; };
+		4DA857FF1BB9B70A003962CD /* backarrowGTIFC.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA857FE1BB9B70A003962CD /* backarrowGTIFC.png */; };
+		4DAF8B171BA7CB0900DF47E2 /* gtletters2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF8B161BA7CB0900DF47E2 /* gtletters2.jpeg */; };
+		4DAF8B191BA7CD5B00DF47E2 /* buzz.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF8B181BA7CD5B00DF47E2 /* buzz.jpeg */; };
+		4DAF8B1B1BA7CE4B00DF47E2 /* IFC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF8B1A1BA7CE4B00DF47E2 /* IFC.jpg */; };
+		4DAF8B1D1BA7CF1B00DF47E2 /* IFC2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF8B1C1BA7CF1B00DF47E2 /* IFC2.png */; };
+		4DAF8B1F1BA7CF7400DF47E2 /* IFC3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF8B1E1BA7CF7400DF47E2 /* IFC3.png */; };
+		4DAF8B241BA7D14500DF47E2 /* keepthet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAF8B231BA7D14500DF47E2 /* keepthet.jpg */; };
+		4DEB20261BA7569C00AF7D47 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DEB20251BA7569C00AF7D47 /* football.png */; };
+		4DEB20291BA7C9AD00AF7D47 /* gtletters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEB20281BA7C9AD00AF7D47 /* gtletters.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D7CDCFF1A3AC8FD00AE2B96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D7CDCDD1A3AC8FD00AE2B96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7CDCE41A3AC8FD00AE2B96;
+			remoteInfo = "IFC Georgia Tech";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D07C82F1BE9721C0026A438 /* JsonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonHandler.h; sourceTree = "<group>"; };
+		4D07C8301BE9721C0026A438 /* JsonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonHandler.m; sourceTree = "<group>"; };
+		4D07C8321BE972770026A438 /* NewsPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsPostCell.h; sourceTree = "<group>"; };
+		4D07C8331BE972770026A438 /* NewsPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsPostCell.m; sourceTree = "<group>"; };
+		4D07C8351BE973CC0026A438 /* NewsPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsPost.h; sourceTree = "<group>"; };
+		4D07C8361BE973CC0026A438 /* NewsPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsPost.m; sourceTree = "<group>"; };
+		4D07C8381BE9742C0026A438 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		4D07C8391BE9742C0026A438 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		4D07C83B1BE978600026A438 /* myUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myUtilities.h; sourceTree = "<group>"; };
+		4D07C83C1BE978600026A438 /* myUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myUtilities.m; sourceTree = "<group>"; };
+		4D07C83E1BE97A970026A438 /* PopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpView.h; sourceTree = "<group>"; };
+		4D07C83F1BE97A970026A438 /* PopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpView.m; sourceTree = "<group>"; };
+		4D07C8411BE97AB40026A438 /* NewsCardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCardController.h; sourceTree = "<group>"; };
+		4D07C8421BE97AB40026A438 /* NewsCardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCardController.m; sourceTree = "<group>"; };
+		4D07C8441BE97B5E0026A438 /* loading3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading3.gif; sourceTree = "<group>"; };
+		4D07C8461BE97B770026A438 /* xClose3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xClose3.png; sourceTree = "<group>"; };
+		4D7CDCE51A3AC8FD00AE2B96 /* IFC Georgia Tech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IFC Georgia Tech.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7CDCE91A3AC8FD00AE2B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7CDCEA1A3AC8FD00AE2B96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D7CDCEC1A3AC8FD00AE2B96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D7CDCED1A3AC8FD00AE2B96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D7CDCF51A3AC8FD00AE2B96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D7CDCFE1A3AC8FD00AE2B96 /* IFC Georgia TechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IFC Georgia TechTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7CDD031A3AC8FD00AE2B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7CDD041A3AC8FD00AE2B96 /* IFC_Georgia_TechTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFC_Georgia_TechTests.m; sourceTree = "<group>"; };
+		4D7CDD0E1A3AD3AA00AE2B96 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4D7CDD0F1A3AD3AA00AE2B96 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4D7CDD101A3AD3AA00AE2B96 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4D7CDD131A3AD3C400AE2B96 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4D7CDD151A3AD76100AE2B96 /* noteWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noteWhite.png; sourceTree = "<group>"; };
+		4D7CDD171A3BA13E00AE2B96 /* GT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GT.png; sourceTree = "<group>"; };
+		4D7CDD191A3BA47100AE2B96 /* pillar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pillar.jpg; sourceTree = "<group>"; };
+		4D7CDD1B1A3BA96A00AE2B96 /* news3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news3.png; sourceTree = "<group>"; };
+		4D7CDD211A3C0BE800AE2B96 /* pillar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillar.png; sourceTree = "<group>"; };
+		4D7CDD231A3C14A200AE2B96 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		4D7CDD271A3CE78000AE2B96 /* yellout2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellout2.png; sourceTree = "<group>"; };
+		4DA857F71BB9B0B8003962CD /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		4DA857F81BB9B0B8003962CD /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		4DA857F91BB9B0B8003962CD /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		4DA857FE1BB9B70A003962CD /* backarrowGTIFC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backarrowGTIFC.png; sourceTree = "<group>"; };
+		4DAF8B161BA7CB0900DF47E2 /* gtletters2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gtletters2.jpeg; sourceTree = "<group>"; };
+		4DAF8B181BA7CD5B00DF47E2 /* buzz.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buzz.jpeg; sourceTree = "<group>"; };
+		4DAF8B1A1BA7CE4B00DF47E2 /* IFC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IFC.jpg; sourceTree = "<group>"; };
+		4DAF8B1C1BA7CF1B00DF47E2 /* IFC2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IFC2.png; sourceTree = "<group>"; };
+		4DAF8B1E1BA7CF7400DF47E2 /* IFC3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IFC3.png; sourceTree = "<group>"; };
+		4DAF8B231BA7D14500DF47E2 /* keepthet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = keepthet.jpg; sourceTree = "<group>"; };
+		4DEB20251BA7569C00AF7D47 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
+		4DEB20281BA7C9AD00AF7D47 /* gtletters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gtletters.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D7CDCE21A3AC8FD00AE2B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7CDCFB1A3AC8FD00AE2B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D7CDCDC1A3AC8FD00AE2B96 = {
+			isa = PBXGroup;
+			children = (
+				4D7CDD131A3AD3C400AE2B96 /* Default-568h@2x.png */,
+				4D7CDCE71A3AC8FD00AE2B96 /* IFC Georgia Tech */,
+				4D7CDD011A3AC8FD00AE2B96 /* IFC Georgia TechTests */,
+				4D7CDCE61A3AC8FD00AE2B96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D7CDCE61A3AC8FD00AE2B96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D7CDCE51A3AC8FD00AE2B96 /* IFC Georgia Tech.app */,
+				4D7CDCFE1A3AC8FD00AE2B96 /* IFC Georgia TechTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D7CDCE71A3AC8FD00AE2B96 /* IFC Georgia Tech */ = {
+			isa = PBXGroup;
+			children = (
+				4D7CDCEC1A3AC8FD00AE2B96 /* AppDelegate.h */,
+				4D7CDCED1A3AC8FD00AE2B96 /* AppDelegate.m */,
+				4D07C82F1BE9721C0026A438 /* JsonHandler.h */,
+				4D07C8301BE9721C0026A438 /* JsonHandler.m */,
+				4D07C83B1BE978600026A438 /* myUtilities.h */,
+				4D07C83C1BE978600026A438 /* myUtilities.m */,
+				4D07C8381BE9742C0026A438 /* UIImage+animatedGIF.h */,
+				4D07C8391BE9742C0026A438 /* UIImage+animatedGIF.m */,
+				4D07C8351BE973CC0026A438 /* NewsPost.h */,
+				4D07C8361BE973CC0026A438 /* NewsPost.m */,
+				4D07C8321BE972770026A438 /* NewsPostCell.h */,
+				4D07C8331BE972770026A438 /* NewsPostCell.m */,
+				4D07C83E1BE97A970026A438 /* PopUpView.h */,
+				4D07C83F1BE97A970026A438 /* PopUpView.m */,
+				4D07C8411BE97AB40026A438 /* NewsCardController.h */,
+				4D07C8421BE97AB40026A438 /* NewsCardController.m */,
+				4D7CDD0E1A3AD3AA00AE2B96 /* MainViewController.h */,
+				4D7CDD0F1A3AD3AA00AE2B96 /* MainViewController.m */,
+				4D7CDD101A3AD3AA00AE2B96 /* MainViewController.xib */,
+				4DA857F71BB9B0B8003962CD /* NewsViewController.h */,
+				4DA857F81BB9B0B8003962CD /* NewsViewController.m */,
+				4DA857F91BB9B0B8003962CD /* NewsViewController.xib */,
+				4DEB20271BA756E200AF7D47 /* image */,
+				4D7CDCF51A3AC8FD00AE2B96 /* Images.xcassets */,
+				4D7CDCE81A3AC8FD00AE2B96 /* Supporting Files */,
+			);
+			path = "IFC Georgia Tech";
+			sourceTree = "<group>";
+		};
+		4D7CDCE81A3AC8FD00AE2B96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D7CDCE91A3AC8FD00AE2B96 /* Info.plist */,
+				4D7CDCEA1A3AC8FD00AE2B96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D7CDD011A3AC8FD00AE2B96 /* IFC Georgia TechTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7CDD041A3AC8FD00AE2B96 /* IFC_Georgia_TechTests.m */,
+				4D7CDD021A3AC8FD00AE2B96 /* Supporting Files */,
+			);
+			path = "IFC Georgia TechTests";
+			sourceTree = "<group>";
+		};
+		4D7CDD021A3AC8FD00AE2B96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D7CDD031A3AC8FD00AE2B96 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DEB20271BA756E200AF7D47 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				4D07C8461BE97B770026A438 /* xClose3.png */,
+				4D07C8441BE97B5E0026A438 /* loading3.gif */,
+				4DAF8B181BA7CD5B00DF47E2 /* buzz.jpeg */,
+				4DAF8B1A1BA7CE4B00DF47E2 /* IFC.jpg */,
+				4DAF8B1C1BA7CF1B00DF47E2 /* IFC2.png */,
+				4DAF8B1E1BA7CF7400DF47E2 /* IFC3.png */,
+				4DAF8B231BA7D14500DF47E2 /* keepthet.jpg */,
+				4DAF8B161BA7CB0900DF47E2 /* gtletters2.jpeg */,
+				4DEB20281BA7C9AD00AF7D47 /* gtletters.jpg */,
+				4D7CDD1B1A3BA96A00AE2B96 /* news3.png */,
+				4D7CDD151A3AD76100AE2B96 /* noteWhite.png */,
+				4D7CDD271A3CE78000AE2B96 /* yellout2.png */,
+				4D7CDD231A3C14A200AE2B96 /* calendar.png */,
+				4D7CDD191A3BA47100AE2B96 /* pillar.jpg */,
+				4D7CDD211A3C0BE800AE2B96 /* pillar.png */,
+				4D7CDD171A3BA13E00AE2B96 /* GT.png */,
+				4DA857FE1BB9B70A003962CD /* backarrowGTIFC.png */,
+				4DEB20251BA7569C00AF7D47 /* football.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D7CDCE41A3AC8FD00AE2B96 /* IFC Georgia Tech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7CDD081A3AC8FD00AE2B96 /* Build configuration list for PBXNativeTarget "IFC Georgia Tech" */;
+			buildPhases = (
+				4D7CDCE11A3AC8FD00AE2B96 /* Sources */,
+				4D7CDCE21A3AC8FD00AE2B96 /* Frameworks */,
+				4D7CDCE31A3AC8FD00AE2B96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IFC Georgia Tech";
+			productName = "IFC Georgia Tech";
+			productReference = 4D7CDCE51A3AC8FD00AE2B96 /* IFC Georgia Tech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D7CDCFD1A3AC8FD00AE2B96 /* IFC Georgia TechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7CDD0B1A3AC8FD00AE2B96 /* Build configuration list for PBXNativeTarget "IFC Georgia TechTests" */;
+			buildPhases = (
+				4D7CDCFA1A3AC8FD00AE2B96 /* Sources */,
+				4D7CDCFB1A3AC8FD00AE2B96 /* Frameworks */,
+				4D7CDCFC1A3AC8FD00AE2B96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7CDD001A3AC8FD00AE2B96 /* PBXTargetDependency */,
+			);
+			name = "IFC Georgia TechTests";
+			productName = "IFC Georgia TechTests";
+			productReference = 4D7CDCFE1A3AC8FD00AE2B96 /* IFC Georgia TechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D7CDCDD1A3AC8FD00AE2B96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kamen Tsvetkov";
+				TargetAttributes = {
+					4D7CDCE41A3AC8FD00AE2B96 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = QMBN32V4F9;
+					};
+					4D7CDCFD1A3AC8FD00AE2B96 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4D7CDCE41A3AC8FD00AE2B96;
+					};
+				};
+			};
+			buildConfigurationList = 4D7CDCE01A3AC8FD00AE2B96 /* Build configuration list for PBXProject "IFC Georgia Tech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D7CDCDC1A3AC8FD00AE2B96;
+			productRefGroup = 4D7CDCE61A3AC8FD00AE2B96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D7CDCE41A3AC8FD00AE2B96 /* IFC Georgia Tech */,
+				4D7CDCFD1A3AC8FD00AE2B96 /* IFC Georgia TechTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D7CDCE31A3AC8FD00AE2B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7CDD181A3BA13E00AE2B96 /* GT.png in Resources */,
+				4DA857FB1BB9B0B8003962CD /* NewsViewController.xib in Resources */,
+				4DA857FF1BB9B70A003962CD /* backarrowGTIFC.png in Resources */,
+				4D07C8471BE97B770026A438 /* xClose3.png in Resources */,
+				4DAF8B241BA7D14500DF47E2 /* keepthet.jpg in Resources */,
+				4D7CDCF61A3AC8FD00AE2B96 /* Images.xcassets in Resources */,
+				4D7CDD121A3AD3AA00AE2B96 /* MainViewController.xib in Resources */,
+				4D7CDD221A3C0BE800AE2B96 /* pillar.png in Resources */,
+				4DAF8B191BA7CD5B00DF47E2 /* buzz.jpeg in Resources */,
+				4D7CDD241A3C14A200AE2B96 /* calendar.png in Resources */,
+				4DEB20261BA7569C00AF7D47 /* football.png in Resources */,
+				4D7CDD281A3CE78000AE2B96 /* yellout2.png in Resources */,
+				4D7CDD1C1A3BA96A00AE2B96 /* news3.png in Resources */,
+				4D7CDD1A1A3BA47100AE2B96 /* pillar.jpg in Resources */,
+				4DAF8B171BA7CB0900DF47E2 /* gtletters2.jpeg in Resources */,
+				4D7CDD141A3AD3C400AE2B96 /* Default-568h@2x.png in Resources */,
+				4DAF8B1B1BA7CE4B00DF47E2 /* IFC.jpg in Resources */,
+				4D07C8451BE97B5E0026A438 /* loading3.gif in Resources */,
+				4DEB20291BA7C9AD00AF7D47 /* gtletters.jpg in Resources */,
+				4D7CDD161A3AD76100AE2B96 /* noteWhite.png in Resources */,
+				4DAF8B1F1BA7CF7400DF47E2 /* IFC3.png in Resources */,
+				4DAF8B1D1BA7CF1B00DF47E2 /* IFC2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7CDCFC1A3AC8FD00AE2B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D7CDCE11A3AC8FD00AE2B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D07C83D1BE978600026A438 /* myUtilities.m in Sources */,
+				4D7CDCEE1A3AC8FD00AE2B96 /* AppDelegate.m in Sources */,
+				4D7CDD111A3AD3AA00AE2B96 /* MainViewController.m in Sources */,
+				4D07C8401BE97A970026A438 /* PopUpView.m in Sources */,
+				4D07C8311BE9721C0026A438 /* JsonHandler.m in Sources */,
+				4D07C8371BE973CC0026A438 /* NewsPost.m in Sources */,
+				4D7CDCEB1A3AC8FD00AE2B96 /* main.m in Sources */,
+				4D07C8431BE97AB40026A438 /* NewsCardController.m in Sources */,
+				4D07C83A1BE9742C0026A438 /* UIImage+animatedGIF.m in Sources */,
+				4D07C8341BE972770026A438 /* NewsPostCell.m in Sources */,
+				4DA857FA1BB9B0B8003962CD /* NewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7CDCFA1A3AC8FD00AE2B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7CDD051A3AC8FD00AE2B96 /* IFC_Georgia_TechTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D7CDD001A3AC8FD00AE2B96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D7CDCE41A3AC8FD00AE2B96 /* IFC Georgia Tech */;
+			targetProxy = 4D7CDCFF1A3AC8FD00AE2B96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D7CDD061A3AC8FD00AE2B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D7CDD071A3AC8FD00AE2B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D7CDD091A3AC8FD00AE2B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kamen Tsvetkov (P4963EZFUA)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Kamen Tsvetkov (P4963EZFUA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kamen Tsvetkov (P4963EZFUA)";
+				COPY_PHASE_STRIP = YES;
+				INFOPLIST_FILE = "IFC Georgia Tech/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gatech.fraternity.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		4D7CDD0A1A3AC8FD00AE2B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kamen Tsvetkov (P4963EZFUA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kamen Tsvetkov (P4963EZFUA)";
+				INFOPLIST_FILE = "IFC Georgia Tech/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gatech.fraternity.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		4D7CDD0C1A3AC8FD00AE2B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IFC Georgia TechTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gatech.fraternity.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IFC Georgia Tech.app/IFC Georgia Tech";
+			};
+			name = Debug;
+		};
+		4D7CDD0D1A3AC8FD00AE2B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IFC Georgia TechTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gatech.fraternity.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IFC Georgia Tech.app/IFC Georgia Tech";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D7CDCE01A3AC8FD00AE2B96 /* Build configuration list for PBXProject "IFC Georgia Tech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7CDD061A3AC8FD00AE2B96 /* Debug */,
+				4D7CDD071A3AC8FD00AE2B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7CDD081A3AC8FD00AE2B96 /* Build configuration list for PBXNativeTarget "IFC Georgia Tech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7CDD091A3AC8FD00AE2B96 /* Debug */,
+				4D7CDD0A1A3AC8FD00AE2B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7CDD0B1A3AC8FD00AE2B96 /* Build configuration list for PBXNativeTarget "IFC Georgia TechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7CDD0C1A3AC8FD00AE2B96 /* Debug */,
+				4D7CDD0D1A3AC8FD00AE2B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D7CDCDD1A3AC8FD00AE2B96 /* Project object */;
+}

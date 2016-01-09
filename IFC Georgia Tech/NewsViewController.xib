@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsViewController">
+            <connections>
+                <outlet property="backButton" destination="2z4-Mf-8CD" id="uOQ-4y-5jK"/>
+                <outlet property="errorMessage" destination="e8o-dQ-F9E" id="soz-Bx-ZNN"/>
+                <outlet property="myTable1" destination="G10-O3-PGL" id="RkG-sb-wJ1"/>
+                <outlet property="progressBar" destination="x0A-Gl-Nqc" id="VJC-kC-9GN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="G10-O3-PGL">
+                    <rect key="frame" x="0.0" y="80" width="600" height="520"/>
+                    <color key="separatorColor" red="0.14509804549999999" green="0.25098040700000002" blue="0.98039221759999995" alpha="1" colorSpace="deviceRGB"/>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <color key="sectionIndexBackgroundColor" red="0.14509804549999999" green="0.25098040700000002" blue="0.98039221759999995" alpha="1" colorSpace="deviceRGB"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vfe-Lc-jzP">
+                    <rect key="frame" x="0.0" y="10" width="600" height="70"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TCE-RM-MqP">
+                            <rect key="frame" x="0.0" y="69" width="600" height="1"/>
+                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="6wv-t7-gzV"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="XVX-ei-wlP"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUH-dz-qVo">
+                            <rect key="frame" x="232.5" y="0.0" width="135" height="70"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="135" id="0eX-DG-dIg"/>
+                                <constraint firstAttribute="height" constant="70" id="fUv-fH-Kau"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="41"/>
+                            <color key="textColor" red="1" green="0.83165156839999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <size key="shadowOffset" width="1" height="1"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2z4-Mf-8CD">
+                            <rect key="frame" x="5" y="15" width="55" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="55" id="P14-Kl-lhU"/>
+                                <constraint firstAttribute="height" constant="40" id="qwB-1K-tH9"/>
+                            </constraints>
+                            <state key="normal" title="  Back" backgroundImage="backarrowGTIFC.png">
+                                <color key="titleColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="KUH-dz-qVo" firstAttribute="top" secondItem="vfe-Lc-jzP" secondAttribute="top" id="3ic-5k-8A0"/>
+                        <constraint firstAttribute="bottom" secondItem="KUH-dz-qVo" secondAttribute="bottom" id="ADB-mY-iOx"/>
+                        <constraint firstAttribute="bottom" secondItem="TCE-RM-MqP" secondAttribute="bottom" id="H1j-66-KCc"/>
+                        <constraint firstAttribute="trailing" secondItem="TCE-RM-MqP" secondAttribute="trailing" id="Lth-nU-Ye5"/>
+                        <constraint firstItem="TCE-RM-MqP" firstAttribute="leading" secondItem="vfe-Lc-jzP" secondAttribute="leading" id="UJT-xW-Azn"/>
+                        <constraint firstItem="2z4-Mf-8CD" firstAttribute="centerY" secondItem="KUH-dz-qVo" secondAttribute="centerY" id="XRc-iS-0pQ"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="b7m-Qp-9dL"/>
+                        <constraint firstItem="2z4-Mf-8CD" firstAttribute="leading" secondItem="vfe-Lc-jzP" secondAttribute="leading" constant="5" id="iQv-Oc-goo"/>
+                        <constraint firstAttribute="height" constant="70" id="y6J-EP-yDM"/>
+                        <constraint firstItem="KUH-dz-qVo" firstAttribute="centerX" secondItem="vfe-Lc-jzP" secondAttribute="centerX" id="zAc-3m-N8t"/>
+                    </constraints>
+                </view>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="x0A-Gl-Nqc">
+                    <rect key="frame" x="290" y="290" width="20" height="20"/>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8o-dQ-F9E">
+                    <rect key="frame" x="211" y="275" width="178" height="50"/>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">Error Loading.
+Check Internet Connection.
+</string>
+                            <attributes>
+                                <font key="NSFont" size="12" name="Cambria"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="e8o-dQ-F9E" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="2xV-w1-KYU"/>
+                <constraint firstAttribute="bottom" secondItem="G10-O3-PGL" secondAttribute="bottom" id="Fab-I7-c0f"/>
+                <constraint firstItem="G10-O3-PGL" firstAttribute="top" secondItem="vfe-Lc-jzP" secondAttribute="bottom" id="JGE-Bs-gwV"/>
+                <constraint firstItem="G10-O3-PGL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RhX-XJ-423"/>
+                <constraint firstItem="x0A-Gl-Nqc" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="SkN-XA-aYI"/>
+                <constraint firstItem="vfe-Lc-jzP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="UkX-w7-cvn"/>
+                <constraint firstAttribute="trailing" secondItem="G10-O3-PGL" secondAttribute="trailing" id="Ytc-Zb-lCe"/>
+                <constraint firstItem="e8o-dQ-F9E" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZOb-c1-Yxk"/>
+                <constraint firstItem="vfe-Lc-jzP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="amA-mz-AFR"/>
+                <constraint firstItem="x0A-Gl-Nqc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gaO-EE-8BI"/>
+                <constraint firstAttribute="trailing" secondItem="vfe-Lc-jzP" secondAttribute="trailing" id="yxn-DK-exD"/>
+            </constraints>
+            <point key="canvasLocation" x="406" y="372"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backarrowGTIFC.png" width="2400" height="1893"/>
+    </resources>
+</document>
